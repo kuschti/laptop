@@ -15,6 +15,9 @@ We support:
 * OS X Mavericks (10.9)
 * OS X Yosemite (10.10)
 * OS X El Capitan (10.11)
+* OS X Sierra (10.12)
+* OS X High Sierra (10.13)
+* OS X Mavericks (10.14)
 
 Older versions may work but aren't regularly tested. Bug reports for older
 versions are welcome.
@@ -22,12 +25,28 @@ versions are welcome.
 Install
 -------
 
-Download, review, then execute the script:
+Download the script:
 
 ```sh
 curl --remote-name https://raw.githubusercontent.com/kuschti/laptop/master/mac
+```
+
+Review the script (avoid running scripts you haven't read!):
+
+```sh
 less mac
+```
+
+Execute the downloaded script:
+
+```sh
 sh mac 2>&1 | tee ~/laptop.log
+```
+
+Optionally, review the log:
+
+```sh
+less ~/laptop.log
 ```
 
 Optionally, [install kuschti/dotfiles][dotfiles].
@@ -59,7 +78,7 @@ Unix tools:
 * [OpenSSL] for Transport Layer Security (TLS)
 * [RCM] for managing company and personal dotfiles
 * [The Silver Searcher] for finding things in files
-* [Tmux] for saving project state and switching between projects
+* ~~[Tmux] for saving project state and switching between projects~~
 * [Zsh] as your shell
 
 [Exuberant Ctags]: http://ctags.sourceforge.net/
@@ -72,7 +91,7 @@ Unix tools:
 
 Heroku tools:
 
-* [Heroku Toolbelt] and [Parity] for interacting with the Heroku API
+* ~~[Heroku Toolbelt] and [Parity] for interacting with the Heroku API~~
 
 [Heroku Toolbelt]: https://toolbelt.heroku.com/
 [Parity]: https://github.com/thoughtbot/parity
@@ -89,17 +108,15 @@ Image tools:
 
 Testing tools:
 
-* [Qt] for headless JavaScript testing via Capybara Webkit
+* ~~[Qt] for headless JavaScript testing via Capybara Webkit~~
 
 [Qt]: http://qt-project.org/
 
 Programming languages and configuration:
 
-* [Bundler] for managing Ruby libraries
+* ~~[Bundler] for managing Ruby libraries~~
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
-* [Rbenv] for managing versions of Ruby
-* [Ruby Build] for installing Rubies
-* [Ruby] stable for writing general-purpose code
+* [Yarn] for managing JavaScript packages
 
 [Bundler]: http://bundler.io/
 [ImageMagick]: http://www.imagemagick.org/
@@ -108,11 +125,13 @@ Programming languages and configuration:
 [Rbenv]: https://github.com/sstephenson/rbenv
 [Ruby Build]: https://github.com/sstephenson/ruby-build
 [Ruby]: https://www.ruby-lang.org/en/
+[Yarn]: https://yarnpkg.com/
+
 
 Databases:
 
-* [Postgres] for storing relational data
-* [Redis] for storing key-value data
+* ~~[Postgres] for storing relational data~~
+* ~~[Redis] for storing key-value data~~
 
 [Postgres]: http://www.postgresql.org/
 [Redis]: http://redis.io/
