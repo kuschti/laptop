@@ -25,12 +25,28 @@ versions are welcome.
 Install
 -------
 
-Download, review, then execute the script:
+Download the script:
 
 ```sh
 curl --remote-name https://raw.githubusercontent.com/kuschti/laptop/master/mac
+```
+
+Review the script (avoid running scripts you haven't read!):
+
+```sh
 less mac
+```
+
+Execute the downloaded script:
+
+```sh
 sh mac 2>&1 | tee ~/laptop.log
+```
+
+Optionally, review the log:
+
+```sh
+less ~/laptop.log
 ```
 
 Optionally, [install kuschti/dotfiles][dotfiles].
@@ -85,11 +101,13 @@ Programming languages and configuration:
 
 * [Bundler] for managing Ruby libraries
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
+* [Yarn] for managing JavaScript packages
 
 [Bundler]: http://bundler.io/
 [ImageMagick]: http://www.imagemagick.org/
 [Node.js]: http://nodejs.org/
 [NPM]: https://www.npmjs.org/
+[Yarn]: https://yarnpkg.com/
 
 It should take less than 15 minutes to install (depends on your machine).
 
