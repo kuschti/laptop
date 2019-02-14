@@ -12,9 +12,12 @@ Requirements
 
 We support:
 
-* OS X Mavericks (10.9)
-* OS X Yosemite (10.10)
-* OS X El Capitan (10.11)
+* macOS Mavericks (10.9)
+* macOS Yosemite (10.10)
+* macOS El Capitan (10.11)
+* macOS Sierra (10.12)
+* macOS High Sierra (10.13)
+* macOS Mojave (10.14)
 
 Older versions may work but aren't regularly tested. Bug reports for older
 versions are welcome.
@@ -59,7 +62,6 @@ Unix tools:
 * [OpenSSL] for Transport Layer Security (TLS)
 * [RCM] for managing company and personal dotfiles
 * [The Silver Searcher] for finding things in files
-* [Tmux] for saving project state and switching between projects
 * [Zsh] as your shell
 
 [Exuberant Ctags]: http://ctags.sourceforge.net/
@@ -67,15 +69,7 @@ Unix tools:
 [OpenSSL]: https://www.openssl.org/
 [RCM]: https://github.com/thoughtbot/rcm
 [The Silver Searcher]: https://github.com/ggreer/the_silver_searcher
-[Tmux]: http://tmux.github.io/
 [Zsh]: http://www.zsh.org/
-
-Heroku tools:
-
-* [Heroku Toolbelt] and [Parity] for interacting with the Heroku API
-
-[Heroku Toolbelt]: https://toolbelt.heroku.com/
-[Parity]: https://github.com/thoughtbot/parity
 
 GitHub tools:
 
@@ -87,35 +81,15 @@ Image tools:
 
 * [ImageMagick] for cropping and resizing images
 
-Testing tools:
-
-* [Qt] for headless JavaScript testing via Capybara Webkit
-
-[Qt]: http://qt-project.org/
-
 Programming languages and configuration:
 
 * [Bundler] for managing Ruby libraries
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
-* [Rbenv] for managing versions of Ruby
-* [Ruby Build] for installing Rubies
-* [Ruby] stable for writing general-purpose code
 
 [Bundler]: http://bundler.io/
 [ImageMagick]: http://www.imagemagick.org/
 [Node.js]: http://nodejs.org/
 [NPM]: https://www.npmjs.org/
-[Rbenv]: https://github.com/sstephenson/rbenv
-[Ruby Build]: https://github.com/sstephenson/ruby-build
-[Ruby]: https://www.ruby-lang.org/en/
-
-Databases:
-
-* [Postgres] for storing relational data
-* [Redis] for storing key-value data
-
-[Postgres]: http://www.postgresql.org/
-[Redis]: http://redis.io/
 
 It should take less than 15 minutes to install (depends on your machine).
 
